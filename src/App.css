@@ -15,23 +15,31 @@
 
 .navbar {
   background-color: #618b6b;
-  min-height: 20vh;
+  border-style: groove;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: rgb(163, 62, 84);
 }
 
 .name {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 250px;
+  border-style: double;
+  border-radius: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 5vh;
-  font-style:oblique;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start
+  font-style: oblique;
+  align-self: flex-start;
+}
 
+.links {
+  border-style: double;
+  border-radius: 75px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .content {
