@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="navbar">
         <span className="name">
-        Hatibe Kabulantok
+        HATIBE KABULANTOK
         </span>
       </header>
       <body className="content">Content</body>
