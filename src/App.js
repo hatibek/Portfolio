@@ -11,7 +11,9 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <div className='name'>HATIBE KABULANTOK</div>
+        <div className='name'>
+          <Link to='/'>HATIBE KABULANTOK</Link>
+        </div>
         <header className='navbar'>
           <nav>
             <span className='links'>
