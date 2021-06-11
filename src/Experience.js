@@ -2,7 +2,7 @@ function Experience() {
   return (
     <div className='experience'>
       <span>
-        <h2>EXPERIENCE</h2>
+        <h1>Experience</h1>
       </span>
     </div>
   );

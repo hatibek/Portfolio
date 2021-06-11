@@ -2,7 +2,7 @@ function Education() {
   return (
     <div className='education'>
       <span>
-        <h2 className='section-header'>EDUCATION</h2>
+        <h1 className='section-header'>Education</h1>
       </span>
     </div>
   );
