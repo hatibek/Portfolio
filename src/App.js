@@ -11,10 +11,10 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <div className='name'>
-          <Link to='/'>HATIBE KABULANTOK</Link>
-        </div>
         <header className='navbar'>
+          <div className='name'>
+            <Link to='/'>HATIBE KABULANTOK</Link>
+          </div>
           <nav>
             <span className='links'>
               {links.map((link) => {
